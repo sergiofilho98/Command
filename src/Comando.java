@@ -1,4 +1,6 @@
 
-public interface Comando {
+public interface Comando{
 	
+	void executar();
+	void setFachada(FachadaEscalonador f);
 }
